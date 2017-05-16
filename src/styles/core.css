@@ -1,0 +1,27 @@
+body {
+    background-color: #FFEBCD;
+}
+
+.core-container {
+    font-family: Arial, sans-serif;
+}
+
+.core-content {
+    padding: 10px;
+    position: relative;
+}
+
+.core-header h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.core-footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.core-footer a {
+    text-decoration: none;
+}

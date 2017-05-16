@@ -1,0 +1,72 @@
+.photo-tile {
+    float: left;
+    position: relative;
+    width: 33.3%;
+    padding-bottom: 33.3%;
+}
+
+.photo-tile-content {
+    position: absolute;
+    padding: 5px;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    overflow: hidden;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 6px;
+    box-shadow: 0 6px 6px #CCC;
+}
+
+.photo-tile-content:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px #008CBA;
+}
+
+.photo-tile-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-tile-rating {
+    position: absolute;
+    display: inline-block;
+    line-height: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid;
+    width: auto;
+    height: auto;
+    background-color: #f387a2;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.photo-tile-rating span {
+    display: inline-block;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.rating-label {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    min-width: 10px;
+    padding: .3em .6em .3em;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #008cba;
+    border-radius: 10px;
+}
