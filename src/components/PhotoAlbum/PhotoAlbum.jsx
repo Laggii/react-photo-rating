@@ -15,7 +15,7 @@ const PhotoAlbum = (props) => {
 
   return (
     <div className='photo-album'>
-      <h3>Mouse left click to increase rating, mouse right click to decrese</h3>
+      <h3>Mouse left click to increase rating, mouse right click to decrease</h3>
       <div className='photo-album-buttons'>
         <button type='button' onClick={actions.resetRating}>RESET</button>
         <button type='button' onClick={actions.generateRating}>RANDOM</button>
