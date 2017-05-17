@@ -17,6 +17,11 @@
     border: 1px solid #DDD;
     border-radius: 6px;
     box-shadow: 0 6px 6px #CCC;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .photo-tile-content:hover {
