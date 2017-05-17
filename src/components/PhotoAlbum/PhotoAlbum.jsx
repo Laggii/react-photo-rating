@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Motion from 'components/Animation/Motion';
 import PhotoTile from 'components/PhotoTile';
 
-import 'styles/photoalbum.css';
+import 'assets/css/photoalbum.css';
 
 const PhotoAlbum = (props) => {
   const { tilesData, actions } = props;
@@ -15,6 +15,7 @@ const PhotoAlbum = (props) => {
 
   return (
     <div className='photo-album'>
+      <h3>Mouse left click to increase rating, mouse right click to decrese</h3>
       <div className='photo-album-buttons'>
         <button type='button' onClick={actions.resetRating}>RESET</button>
         <button type='button' onClick={actions.generateRating}>RANDOM</button>

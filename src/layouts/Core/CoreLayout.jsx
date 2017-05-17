@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Footer from 'components/Footer';
 import Header from 'components/Header';
 
-import 'styles/core.css';
+import 'assets/css/core.css';
 
 export const CoreLayout = ({ children }) => (
   <div className='core-container'>

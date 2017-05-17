@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import * as Rating from 'constants/Rating';
 import { MOUSE_LEFT_BUTTON } from 'constants/Buttons';
 
-import 'styles/phototiles.css';
+import 'assets/css/phototiles.css';
 
 const PhotoTile = (props) => {
   const { data, updateRating } = props;

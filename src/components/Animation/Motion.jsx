@@ -29,7 +29,7 @@ export default class Motion extends Component {
     const { children } = this.props;
 
     Array.from(domChildren).forEach((child, index) => {
-      let domNode = ReactDOM.findDOMNode(child);
+      const domNode = ReactDOM.findDOMNode(child);
 
       const newBox = domNode.getBoundingClientRect();
       const oldBox = this.state[children[index].key];
