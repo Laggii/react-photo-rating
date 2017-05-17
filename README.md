@@ -2,7 +2,7 @@
 
 Demo:
 
-http://laggii.github.io/react-photo-rating
+https://laggii.github.io/react-photo-rating
 
 Run:
 ### `npm start`
