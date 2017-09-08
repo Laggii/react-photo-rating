@@ -1,15 +1,24 @@
-## Simple React photo gallery with rating and animation
+### Component animation without any libraries 
+
+Proof-of-concept of cool Joshua Comeau's [article](https://medium.com/developers-writing/animating-the-unanimatable-1346a5aab3cd) and also an example of code I write
 
 Demo:
 
-https://laggii.github.io/react-photo-rating
+https://foreach.xyz/projects/react-photo-rating
+
+Install dependencies:
+
+#### `npm install`
+
+and
 
 Run:
-### `npm start`
+
+#### `npm start`
 
 Pictures config location:
 
-### `src/configs/images.json`
+#### `src/configs/images.json`
 
 
 TODO: update readme

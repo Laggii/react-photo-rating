@@ -1,7 +1,7 @@
 {
   "name": "react-photo-rating",
   "version": "0.1.0",
-  "homepage": "http://foreach.xyz/react-photo-rating",
+  "homepage": "https://foreach.xyz/projects/react-photo-rating",
   "private": true,
   "dependencies": {
     "babel-polyfill": "^6.23.0",
